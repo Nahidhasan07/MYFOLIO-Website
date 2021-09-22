@@ -1,0 +1,288 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2019, 11:39:18 PM
+    Author     : Nahid
+*/
+
+.f_menu{
+    background: #02918c;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    z-index: 1000;
+    transition: all .5s linear;
+}
+#navbar .navbar-light .navbar-nav .nav-link{
+    display: inline-block;
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    border: 1px solid transparent;
+    margin: 0 2px;
+    transition: all .5s linear;
+    padding: 5px 12px;
+}
+#navbar .navbar-light .navbar-nav .nav-link:hover{
+    border-color: white;
+    color: #cfc91d;
+}
+/*mmm*/
+.f_banner{
+
+}
+.carousel-caption {
+    position: absolute;
+    top: 0%;
+    left:0;
+    z-index: 10;
+    padding: 230px 50px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.40);
+}
+.ban_txt{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-39%,-46%);
+    text-align: center;
+    width: 100%;
+}
+.ban_txt h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif;
+}
+.ban_txt h2{
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.ban_txt h3{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.ban_txt img{
+    margin-bottom: 65px;
+}
+.ban_txt a{
+    color: black;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 18px 45px;
+    background: #cfc91d;
+    transition: all .6s linear;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+/*ashd*/
+.ban_txt_a .hvr-bounce-to-right:before {
+    background: white;
+}
+.ban_txt_a .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+    color: black;
+}
+/*sjdj*/
+/*mmm*/
+.f_about{
+    padding: 50px 0;
+}
+.about h1{
+    font-weight: 800;
+    font-size:46px;
+    color: #02918c;
+}
+.about h2{
+    font-size: 16px;
+    color: #7e8287;
+    padding: 40px 0;
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+.about h2 span{
+    font-size: 23px;
+    color: #7e8287;
+    font-weight: 800;
+}
+.d_about{
+    margin-top:40px;
+}
+.about_i i{
+    font-size: 35px;
+    color: #219e9a;
+}
+.about_i h1{
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+    padding: 25px 0;
+}
+.about_i h2{
+    width: 80%;
+    font-size: 11px;
+    font-weight: 800;
+    color: #7e8287;
+    line-height: 20px;
+    margin: auto;
+}
+/*mmm*/
+#f_services{
+    background: url(../images/service.jpg) left top no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+
+}
+.service h2{
+    width: 100%;
+}
+.service_i h2{
+    width: 65%;
+    margin: 0;
+}
+/*mmm*/
+.f_work{
+    margin-bottom: 95px;
+
+}
+.col-12 .work h2{
+    width: 62%;
+}
+.work_pic_pad{
+    padding: 0 0;
+}
+.work_pic{
+    position: relative;
+}
+.work_pic img{
+    width: 100%;
+}
+.work_pic_over{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    top: 10%;
+    left: 0%;
+    background: rgba(35,152,144,0.85);
+    opacity: 0;
+    box-sizing: border-box;
+    transition: all .5s linear;
+}
+.work_pic_txt{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    transform: translate(-25%,-45%);
+}
+.work_pic_over h1{
+    font-weight: 800;
+    line-height: 23px;
+    font-size: 16px;
+    color: white;
+}
+.work_pic_over h2{
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 13px;
+    color: white;
+    width: 102%;
+    margin: auto;
+}
+.work_pic:hover .work_pic_over{
+    left: 5%;
+    opacity: 1;
+}
+/*mm*/
+.f_contract_txt{
+
+}
+/*mm*/
+.f_contract{
+
+}
+.f_contract{
+    box-sizing: border-box;
+    padding: 40px 0;
+    background: #0b0b0b;
+}
+.name{
+    color: #797c81;
+    height: 40px;
+    width: 70%;
+    background: #0b0b0b;
+    border: 0px;
+    border-bottom: 1px solid #797c81;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.mess{
+    color: #797c81;
+    box-sizing: border-box;
+    height: 150px;
+    width: 90%;
+    background: #0b0b0b;
+    border: 0px;
+    border-bottom: 1px solid #797c81;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+.submit_b{
+    margin-top: 50px;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 15px 50px;
+    background: #cfc91d;
+    transition: all .6s linear;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.submit_b:hover{
+    border: 2px solid #cfc91d;
+    background: white;
+}
+/*mm*/
+
+.f_copyright{
+    background: #000000;
+    padding: 15px 0;
+}
+.copyright i{
+    color: #7e8287;
+    font-size: 12px;
+}
+.copyright h1{
+    display: inline-block;
+    color: #7e8287;
+    font-weight: 400;
+    font-size: 15px;
+}
+/*stiktymenu*/
+.sticky_menu{
+    padding: 5px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: .90;
+    transition: all .5s linear;
+}
